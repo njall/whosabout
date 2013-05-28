@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <Switch
+        android:id="@+id/switch_tracking"
+        android:layout_width="254dp"
+        android:layout_height="54dp"
+        android:layout_gravity="center"
+        android:layout_margin="100dp"
+        android:layout_weight="0.56"
+        android:checked="true"
+        android:enabled="true"
+        android:text="@string/switch_message" />
+
+    <TextView
+        android:id="@+id/output_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.56" />
+
+    <EditText
+        android:id="@+id/location_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.56"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+</LinearLayout>
